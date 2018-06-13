@@ -1,0 +1,17 @@
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\bin\Debug\INPC.exe.config
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\bin\Debug\INPC.exe
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\bin\Debug\INPC.pdb
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\CalculatorMiniProject.csprojResolveAssemblyReference.cache
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\MainWindow.g.cs
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\Views\CalculatorView.g.cs
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\App.g.cs
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\INPC_MarkupCompile.cache
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\INPC_MarkupCompile.lref
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\MainWindow.baml
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\Views\CalculatorView.baml
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\INPC.g.resources
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\INPC.Properties.Resources.resources
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\CalculatorMiniProject.csproj.GenerateResource.Cache
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\INPC.exe
+C:\Users\dnguyen\Downloads\Trial2\CalculatorMiniProject\CalculatorMiniProject\obj\Debug\INPC.pdb
