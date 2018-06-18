@@ -1,0 +1,35 @@
+﻿<Window x:Class="CustomCommand.MainWindow"
+        x:Name="LeadWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.galasoft.ch/ignore"
+        mc:Ignorable="d ignore"
+        Height="300"
+        Width="300"
+        Title="MainWindow"
+        DataContext="{Binding Main, Source={StaticResource Locator}}">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Skins/MainSkin.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.InputBindings>
+        <!-- press Alt R will close the window -->
+        <KeyBinding Command="{Binding Path=Close}" CommandParameter="{Binding ElementName=LeadWindow}" Key="R" Modifiers="Alt"/>
+    </Window.InputBindings>
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- press this button will bring up a new button -->
+        <Button Grid.Row="1" Command="{Binding HiButtonCommand}" CommandParameter="SURPRISE!!!" Content="{Binding HiButtonContent}" Width="160" Height="50"/>
+        <Button Grid.Row="2" Content="Toggle Can Click" Command="{Binding ToggleExecuteCommand}" Width="160" Height="50"/>
+    </Grid>
+</Window>
