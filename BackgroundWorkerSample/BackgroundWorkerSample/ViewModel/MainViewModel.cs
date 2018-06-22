@@ -25,7 +25,9 @@ namespace BackgroundWorkerSample.ViewModel
         private string _textColor;
         private string _instruction = "Click Start button to begin.";
         private bool _startEnable = true;
+        private bool _stopEnable = false;
         private ICommand _startBackgroundWorker;
+        private ICommand _stopCommand;
         private int _progress;
 
         /// <summary>
@@ -65,6 +67,19 @@ namespace BackgroundWorkerSample.ViewModel
             }
         }
 
+        public bool StopEnable
+        {
+            get
+            {
+                return _stopEnable;
+            }
+            set
+            {
+                _stopEnable = value;
+                this.RaisePropertyChanged("StopEnable");
+            }
+        }
+
         public bool StartEnable
         {
             get
@@ -78,6 +93,12 @@ namespace BackgroundWorkerSample.ViewModel
             }
         }
 
+        public ICommand CancelCommand
+        {
+            get;
+            private set;
+        }
+
         public ICommand StartBackgroundWorker
         {
             get
@@ -88,6 +109,19 @@ namespace BackgroundWorkerSample.ViewModel
             {
                 _startBackgroundWorker = value;
                 RaisePropertyChanged("StartBackgroundWorker");
+            }
+        }
+
+        public ICommand StopCommand
+        {
+            get
+            {
+                return _stopCommand;
+            }
+            set
+            {
+                _stopCommand = value;
+                RaisePropertyChanged("StopCommand");
             }
         }
 
@@ -119,7 +153,24 @@ namespace BackgroundWorkerSample.ViewModel
                         return;
                     }
                     StartBackgroundWorker = new RelayCommand(startProcess);
+                    CancelCommand = new RelayCommand(cancelProcess);
+                    StopCommand = new RelayCommand(stop);
                 });
+        }
+
+        private void stop(object sender)
+        {
+            _backgroundWorker.CancelAsync();
+            StartEnable = true;
+            StopEnable = false;
+        }
+
+        private void cancelProcess(object sender)
+        {
+            // close the toolbar
+            Application.Current.Windows[Application.Current.Windows.Count - 1].Close();
+            // close the window
+            Application.Current.Windows[Application.Current.Windows.Count - 1].Close();
         }
 
         private void startProcess(object sender)
@@ -136,6 +187,7 @@ namespace BackgroundWorkerSample.ViewModel
             Instruction = "";
             TextColor = "Black";
             StartEnable = false;
+            StopEnable = true;
         }
 
         private void _backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
@@ -147,8 +199,11 @@ namespace BackgroundWorkerSample.ViewModel
                     e.Cancel = true;
                     return;
                 }
-                _backgroundWorker.ReportProgress(i);
-                System.Threading.Thread.Sleep(200);
+                else
+                {
+                    _backgroundWorker.ReportProgress(i);
+                    System.Threading.Thread.Sleep(200);
+                }
             }
         }
 
@@ -160,7 +215,12 @@ namespace BackgroundWorkerSample.ViewModel
 
         private void _backgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) 
         {
-            if (!e.Cancelled)
+            if (e.Cancelled)
+            {
+                TextColor = Brushes.Red.ToString();
+                Status = "BackgroundWorker is cancelled.";
+            }
+            else
             {
                 TextColor = Brushes.Green.ToString();
                 Status = "BackgroundWorker finished!";
