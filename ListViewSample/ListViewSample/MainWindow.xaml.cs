@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using GalaSoft.MvvmLight.Ioc;
 using ListViewSample.ViewModel;
 
 namespace ListViewSample
@@ -15,6 +16,16 @@ namespace ListViewSample
         {
             InitializeComponent();
             Closing += (s, e) => ViewModelLocator.Cleanup();
+        }
+
+        private void TextBox_OnlyNonNegativeDoubleValid(object sender, System.Windows.Input.TextCompositionEventArgs e)
+        {
+            SimpleIoc.Default.GetInstance<MainViewModel>().TextBox_OnlyNonNegativeDoubleValid(sender,e);
+        }
+
+        private void TextBox_OnlyNonZeroDoubleValid(object sender, System.Windows.Input.TextCompositionEventArgs e)
+        {
+            SimpleIoc.Default.GetInstance<MainViewModel>().TextBox_OnlyNonZeroDoubleValid(sender, e);
         }
     }
 }

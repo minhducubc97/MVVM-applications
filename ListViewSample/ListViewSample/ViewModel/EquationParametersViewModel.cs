@@ -30,7 +30,7 @@ namespace ListViewSample.ViewModel
             this.Id = id;
         }
 
-        public new int Id
+        public int Id
         {
             get
             {
@@ -43,7 +43,7 @@ namespace ListViewSample.ViewModel
             }
         }
 
-        public new double M1
+        public double M1
         {
             get
             {
@@ -56,7 +56,7 @@ namespace ListViewSample.ViewModel
             }
         }
 
-        public new double M2
+        public double M2
         {
             get
             {
@@ -69,7 +69,7 @@ namespace ListViewSample.ViewModel
             }
         }
 
-        public new double R
+        public double R
         {
             get
             {
@@ -82,7 +82,7 @@ namespace ListViewSample.ViewModel
             }
         }
 
-        public new double Result
+        public double Result
         {
             get
             {

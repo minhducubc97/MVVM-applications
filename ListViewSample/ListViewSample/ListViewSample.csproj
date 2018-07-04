@@ -77,8 +77,6 @@
     <Compile Include="Model\IDataService.cs" />
     <Compile Include="ViewModel\EquationParametersViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
-    <Compile Include="ViewModel\NumberOnlyNoZeroTextBox.cs" />
-    <Compile Include="ViewModel\NumberOnlyTextBox.cs" />
     <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Page Include="MainWindow.xaml">

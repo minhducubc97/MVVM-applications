@@ -55,7 +55,7 @@
                         <GridViewColumn Width="110">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
-                                    <viewmodel:NumberOnlyTextBox Text="{Binding M1}" Margin="-4"></viewmodel:NumberOnlyTextBox>
+                                    <TextBox Text="{Binding M1}" Margin="-4" PreviewTextInput="TextBox_OnlyNonNegativeDoubleValid"></TextBox>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                             <GridViewColumn.HeaderContainerStyle>
@@ -70,7 +70,7 @@
                         <GridViewColumn Width="110">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
-                                    <viewmodel:NumberOnlyTextBox Text="{Binding M2}" Margin="-4"></viewmodel:NumberOnlyTextBox>
+                                    <TextBox Text="{Binding M2}" Margin="-4" PreviewTextInput="TextBox_OnlyNonNegativeDoubleValid"></TextBox>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                             <GridViewColumn.HeaderContainerStyle>
@@ -85,7 +85,7 @@
                         <GridViewColumn Width="110">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
-                                    <viewmodel:NumberOnlyNoZeroTextBox Text="{Binding R}" Margin="-4"></viewmodel:NumberOnlyNoZeroTextBox>
+                                    <TextBox Text="{Binding R}" Margin="-4" PreviewTextInput="TextBox_OnlyNonZeroDoubleValid"></TextBox>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                             <GridViewColumn.HeaderContainerStyle>

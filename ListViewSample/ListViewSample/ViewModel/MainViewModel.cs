@@ -3,6 +3,7 @@ using ListViewSample.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace ListViewSample.ViewModel
@@ -147,6 +148,54 @@ namespace ListViewSample.ViewModel
             {
                 EquationParametersViewModel currentEquation = EquationList[i];
                 currentEquation.Result = (GRAVITATION_CONSTANT * currentEquation.M1 * currentEquation.M2) / Math.Pow(currentEquation.R, 2);
+            }
+        }
+
+        public void TextBox_OnlyNonNegativeDoubleValid(object sender, TextCompositionEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            int cIndex = textBox.CaretIndex;
+            int selectionLength = textBox.SelectionLength;
+
+            string text = textBox.Text;
+            string a, b, c;
+            a = text.Substring(0, cIndex);                  // get the first part of string up to insertion point
+            b = text.Substring(cIndex, selectionLength);    // get the selected part
+            c = text.Substring(cIndex + selectionLength);   // get the remainder
+            string newtext = a + e.Text + c;                // replace selection with typed text
+
+            double d;
+            if (!(newtext == "."))
+            {
+                if (!double.TryParse(newtext, out d))
+                {
+                    e.Handled = true;                       // cancel the event
+                }
+            }
+        }
+
+        public void TextBox_OnlyNonZeroDoubleValid(object sender, TextCompositionEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            int cIndex = textBox.CaretIndex;
+            int selectionLength = textBox.SelectionLength;
+
+            string text = textBox.Text;
+            string a, b, c;
+            a = text.Substring(0, cIndex);                  // get the first part of string up to insertion point
+            b = text.Substring(cIndex, selectionLength);    // get the selected part
+            c = text.Substring(cIndex + selectionLength);   // get the remainder
+            string newtext = a + e.Text + c;                // replace selection with typed text
+
+            double d;
+            if (!((newtext == ".") || (newtext == "-")))
+            {
+                if ((!double.TryParse(newtext, out d)) || (Convert.ToDouble(newtext) == 0))
+                {
+                    e.Handled = true;                       // cancel the event
+                }
             }
         }
 
