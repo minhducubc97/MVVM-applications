@@ -11,7 +11,7 @@ namespace ListViewSample.ViewModel
 {
     public class NumberOnlyTextBox : TextBox
     {
-        private static readonly Regex regex = new Regex("[0-9]+");
+        private static readonly Regex regex = new Regex(@"^[0-9]*(\.[0-9]*)?$");
 
         protected override void OnPreviewTextInput(TextCompositionEventArgs e)
         {
