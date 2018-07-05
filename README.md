@@ -8,7 +8,7 @@ Sample Window Applications using MVVM framework:
 </p>
 - CustomCommand: A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github1.PNG" height="150"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github1.PNG" height="150" style="margin:0px 20px"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github2.PNG" height="150"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github3.PNG" height="150"/>
 </p>
