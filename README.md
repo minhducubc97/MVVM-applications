@@ -17,7 +17,7 @@ Sample Window Applications using MVVM framework:
 - SoundPlayer: Using built-in SystemSounds libary, the SoundPlayer is capable of playing 5 different sounds: Asterisk, Beep, Exclamation, Hand and Question. The sounds may vary, due to user's customization.
 <br/><br/><br/>
 2 - ADVANCED:
-<br/>
+<br/><br/>
 - BackgroundWorkerSample: A window with progress bar controlled by BackgroundWorker using multithreading principle. There are three main buttons available to use: Cancel Button - used to close the window, Stop Button - used to stop the BackgroundWorker and the progress bar completely, and Start Button - used to start the BackgroundWorker and trigger the progress bar.
 <br/><br/>
 <p align="center">
