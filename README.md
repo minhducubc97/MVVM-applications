@@ -15,7 +15,6 @@ Sample Window Applications using MVVM framework:
 2) ADVANCED:
 - BackgroundWorkerSample: A window with progress bar controlled by BackgroundWorker using multithreading principle. There are three main buttons available to use: Cancel Button - used to close the window, Stop Button - used to stop the BackgroundWorker and the progress bar completely, and Start Button - used to start the BackgroundWorker and trigger the progress bar.
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github6.PNG" height="150"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github7.PNG" height="150"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github8.PNG" height="150"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github9.PNG" height="150"/>
@@ -25,5 +24,8 @@ Sample Window Applications using MVVM framework:
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github10.PNG" height="150"/>
 </p>
 - ListViewSample: Create a table that resembles an excel sheet, which can receive inputs from the users and calculate the result based on the inputs. In this specific project, the table can calculate gravitation force, given user's input of 2 target objects' mass (m1, m2) and the distance between 2 object (r): F = (G x m1 x m2)/r^2 (Newton). The mini-project feature demonstration of PreviewTextInput, which restricts user to only typing valid characters into the textboxes.
+<p align="center">
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github11.PNG" height="150"/>
+</p>
 
 Note: Most of the projects use MVVM light framework.
