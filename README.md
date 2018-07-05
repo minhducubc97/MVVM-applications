@@ -13,4 +13,4 @@ Sample Window Applications using MVVM framework:
 
 Note: Most of the projects use MVVM light framework.
 
-![alt text](https://www.google.com/search?q=random+image&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjQgtTJr4jcAhXXHDQIHZkGBnUQ_AUICigB&biw=1208&bih=735#imgrc=S5FeZeKkZuOQsM:)
+![alt text](http://ducnguyen.site/wp-content/uploads/2018/06/Nguyen.Duc_.19741157.Resume-Copy.pdf)
