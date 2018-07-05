@@ -3,6 +3,7 @@ using ListViewSample.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Globalization;
 using System.Windows.Controls;
 using System.Windows.Input;
 
@@ -26,6 +27,7 @@ namespace ListViewSample.ViewModel
         private ICommand _calculate;
         private int _lastIndex;
         private const double GRAVITATION_CONSTANT = 6.67e-11;
+        private bool flag = false;
 
         /// <summary>
         /// Changes to that property's value raise the PropertyChanged event. 
@@ -110,7 +112,7 @@ namespace ListViewSample.ViewModel
                 EquationList.Add(equation);
                 LastIndex++;
             }
-            LastIndex--; 
+            LastIndex--;
             populateButtons();
         }
 
@@ -165,10 +167,16 @@ namespace ListViewSample.ViewModel
             c = text.Substring(cIndex + selectionLength);   // get the remainder
             string newtext = a + e.Text + c;                // replace selection with typed text
 
-            double d;
-            if (!(newtext == "."))
+            if (e.Text.Equals("e"))
             {
-                if (!double.TryParse(newtext, out d))
+                flag = true;
+            }
+
+            double d;
+            if (!(((a.Length > 0) && (e.Text.Equals("e"))) || (e.Text.Equals("-") && flag)))
+            {
+                flag = false;
+                if ((!double.TryParse(newtext, out d)) && (!double.TryParse(newtext, System.Globalization.NumberStyles.AllowExponent, CultureInfo.CurrentCulture, out d)))
                 {
                     e.Handled = true;                       // cancel the event
                 }
@@ -190,7 +198,7 @@ namespace ListViewSample.ViewModel
             string newtext = a + e.Text + c;                // replace selection with typed text
 
             double d;
-            if (!((newtext == ".") || (newtext == "-")))
+            if (!(((a.Length > 0) && (e.Text.Equals("e"))) || (e.Text.Equals("-") && flag) || (newtext == "-")))
             {
                 if ((!double.TryParse(newtext, out d)) || (Convert.ToDouble(newtext) == 0))
                 {

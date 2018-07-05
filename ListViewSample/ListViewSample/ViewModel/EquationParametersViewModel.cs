@@ -90,7 +90,7 @@ namespace ListViewSample.ViewModel
             }
             set
             {
-                _result = value;
+                _result = Math.Round(value,2);
                 OnPropertyChanged("Result");
             }
         }

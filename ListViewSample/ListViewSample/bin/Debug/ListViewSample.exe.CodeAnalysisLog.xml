@@ -12,8 +12,8 @@
          <Members>
           <Member Name="#.ctor(ListViewSample.Model.IDataService)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-07-04 23:40:34Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalWarning" Path="D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\ListViewSample\ListViewSample\ListViewSample\ViewModel" File="MainViewModel.cs" Line="102">'MainViewModel.MainViewModel(IDataService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;MainViewModel..ctor(IDataService)&#xD;&#xA;MainViewModel.set_LastIndex(Int32):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-07-05 19:31:45Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\ListViewSample\ListViewSample\ListViewSample\ViewModel" File="MainViewModel.cs" Line="30">'MainViewModel.MainViewModel(IDataService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;MainViewModel..ctor(IDataService)&#xD;&#xA;MainViewModel.set_LastIndex(Int32):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
             </Message>
            </Messages>
           </Member>
