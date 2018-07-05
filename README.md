@@ -12,3 +12,5 @@ Sample Window Applications using MVVM framework:
 - BackgroundWorkerSample: A window with progress bar controlled by BackgroundWorker using multithreading principle. There are three main buttons available to use: Cancel Button - used to close the window, Stop Button - used to stop the BackgroundWorker and the progress bar completely, and Start Button - used to start the BackgroundWorker and trigger the progress bar.
 
 Note: Most of the projects use MVVM light framework.
+
+![alt text](https://www.google.com/search?q=random+image&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjQgtTJr4jcAhXXHDQIHZkGBnUQ_AUICigB&biw=1208&bih=735#imgrc=S5FeZeKkZuOQsM:)
