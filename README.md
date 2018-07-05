@@ -6,8 +6,12 @@ Sample Window Applications using MVVM framework:
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github.PNG" height="150"/>
 </p>
-
 - CustomCommand: A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.
+<p align="center">
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github1.PNG" height="150"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github2.PNG" height="150"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github3.PNG" height="150"/>
+</p>
 - TabControl: A simple demonstration of using TabControl in MVVM that features a next button to move to the next tab and a back button to move back to the previous tab. 
 - SoundPlayer: Using built-in SystemSounds libary, the SoundPlayer is capable of playing 5 different sounds: Asterisk, Beep, Exclamation, Hand and Question. The sounds may vary, due to user's customization.
 2) ADVANCED:
