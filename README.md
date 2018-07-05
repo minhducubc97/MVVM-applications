@@ -1,8 +1,7 @@
 # Window applications (MVVM)
 Sample Window Applications using MVVM framework:
 <br/>
-1) BASIC:
-<br/>
+1 - BASIC:
 - CalculatorMiniProject: A simple calculator that can add 2 numbers together. The calculation happens immediately after the user unfocus the textbox.
 - DispatcherTimerSample: A simple digital clock that show current time accurate to milliseconds.
 <p align="center">
@@ -18,7 +17,7 @@ Sample Window Applications using MVVM framework:
 <br/>
 - SoundPlayer: Using built-in SystemSounds libary, the SoundPlayer is capable of playing 5 different sounds: Asterisk, Beep, Exclamation, Hand and Question. The sounds may vary, due to user's customization.
 <br/><br/><br/>
-2) ADVANCED:
+2 - ADVANCED:
 <br/>
 - BackgroundWorkerSample: A window with progress bar controlled by BackgroundWorker using multithreading principle. There are three main buttons available to use: Cancel Button - used to close the window, Stop Button - used to stop the BackgroundWorker and the progress bar completely, and Start Button - used to start the BackgroundWorker and trigger the progress bar.
 <br/><br/>
