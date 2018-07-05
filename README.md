@@ -9,7 +9,7 @@ Sample Window Applications using MVVM framework:
 - CustomCommand: A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.
 - TabControl: A simple demonstration of using TabControl in MVVM that features a next button to move to the next tab and a back button to move back to the previous tab. 
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github4.PNG" height="150"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github4.PNG" height="250"/>
 </p>
 - SoundPlayer: Using built-in SystemSounds libary, the SoundPlayer is capable of playing 5 different sounds: Asterisk, Beep, Exclamation, Hand and Question. The sounds may vary, due to user's customization.
 2) ADVANCED:
@@ -21,11 +21,11 @@ Sample Window Applications using MVVM framework:
 </p>
 - PraceXml: A demonstration of using XmlReader to extract data from Xml file. The information is then displayed on the console. Unlike other projects, this one does not need MVVM.
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github10.PNG" height="150"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github10.PNG" height="250"/>
 </p>
 - ListViewSample: Create a table that resembles an excel sheet, which can receive inputs from the users and calculate the result based on the inputs. In this specific project, the table can calculate gravitation force, given user's input of 2 target objects' mass (m1, m2) and the distance between 2 object (r): F = (G x m1 x m2)/r^2 (Newton). The mini-project feature demonstration of PreviewTextInput, which restricts user to only typing valid characters into the textboxes.
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github11.PNG" height="150"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github11.PNG" height="250"/>
 </p>
 
 Note: Most of the projects use MVVM light framework.
