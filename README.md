@@ -4,7 +4,7 @@ Sample Window Applications using MVVM framework:
 - CalculatorMiniProject: A simple calculator that can add 2 numbers together. The calculation happens immediately after the user unfocus the textbox.
 - DispatcherTimerSample: A simple digital clock that show current time accurate to milliseconds.
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github.PNG" height="30"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github.PNG" height="150"/>
 </p>
 
 - CustomCommand: A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.
