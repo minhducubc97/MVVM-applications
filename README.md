@@ -1,6 +1,6 @@
 # Window applications (MVVM)
 Sample Window Applications using MVVM framework:
-<h5>1 - BASIC:</h5>
+<h4>1 - BASIC:</h4>
 - CalculatorMiniProject: A simple calculator that can add 2 numbers together. The calculation happens immediately after the user unfocus the textbox.
 - DispatcherTimerSample: A simple digital clock that show current time accurate to milliseconds.
 <br/>
