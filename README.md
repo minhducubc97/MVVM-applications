@@ -6,6 +6,8 @@ Sample Window Applications using MVVM framework:
 <br/><br/>
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github.PNG" height="150"/>
+  <br/>
+  <div align="center"><i>Figure 1: Clock view.</i></div>
 </p>
 <br/>
 * CustomCommand: A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.<br/>
@@ -13,6 +15,8 @@ Sample Window Applications using MVVM framework:
 <br/><br/>
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github4.PNG" height="280"/>
+  <br/>
+  <div align="center"><i>Figure 2: Tab view.</i></div>
 </p>
 <br/>
 * SoundPlayer: Using built-in SystemSounds libary, the SoundPlayer is capable of playing 5 different sounds: Asterisk, Beep, Exclamation, Hand and Question. The sounds may vary, due to user's customization.
@@ -24,31 +28,41 @@ Sample Window Applications using MVVM framework:
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github7.PNG" height="150"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github8.PNG" height="150"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github9.PNG" height="150"/>
+  <br/>
+  <div align="center"><i>Figure 3: BackgroundWorker in action.</i></div>
 </p>
 <br/><br/>
 * PraceXml: A demonstration of using XmlReader to extract data from Xml file. The information is then displayed on the console. Unlike other projects, this one does not need MVVM.
 <br/><br/>
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github10.PNG" height="280"/>
+  <br/>
+  <div align="center"><i>Figure 4: Console output triggered by the application.</i></div>
 </p>
 <br/><br/>
 * ListViewSample: Create a table that resembles an excel sheet, which can receive inputs from the users and calculate the result based on the inputs. In this specific project, the table can calculate gravitation force, given user's input of 2 target objects' mass (m1, m2) and the distance between 2 object (r): F = (G x m1 x m2)/r^2 (Newton). The mini-project feature demonstration of PreviewTextInput, which restricts user to only typing valid characters into the textboxes.
 <br/><br/>
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github11.PNG" height="250"/>
+  <br/>
+  <div align="center"><i>Figure 5: Table view.</i></div>
 </p>
 <br/><br/>
 * YoutubeStream: An WPF application that can stream videos from Youtube. The user enters their youtube link into the textbox, then application will decide whether the link is valid or not. Only when the link is valid, the application will open the youtube link in embedded version of the video. The application makes use of CefSharp, which enables surfing webs in Chromium instead of default IE.
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Youtube.PNG" height="250"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Youtube.PNG" height="300"/>
   <br/>
-  <div align="center"><i>Application initial view.</i></div>
+  <div align="center"><i>Figure 6: Application initial view.</i></div>
 </p>
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/YoutubeWrong.PNG" height="250"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/YoutubeWrong.PNG" height="300"/>
+  <br/>
+  <div align="center"><i>Figure 7: Application shows error when user enters an invalid Youtube link.</i></div>
 </p>
 <p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/YoutubeRight.PNG" height="250"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/YoutubeRight.PNG" height="300"/>
+  <br/>
+  <div align="center"><i>Figure 8: Application displays the Youtube video in embedded form.</i></div>
 </p>
 
 <p><i>Note: Most of the projects use MVVM light framework.</i></p>
