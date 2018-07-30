@@ -1,0 +1,9 @@
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\bin\Debug\PraceXml.exe.config
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\bin\Debug\PraceXml.exe
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\bin\Debug\PraceXml.pdb
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\obj\Debug\PraceXml.csprojResolveAssemblyReference.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\obj\Debug\PraceXml.csproj.CoreCompileInputs.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\obj\Debug\PraceXml.exe
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\obj\Debug\PraceXml.pdb
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\obj\Debug\PraceXml.Properties.Resources.resources
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\Practice\PraceXml\PraceXml\obj\Debug\PraceXml.csproj.GenerateResource.cache
