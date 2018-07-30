@@ -7,7 +7,7 @@ Sample Window Applications using MVVM framework:
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github.PNG" height="150"/>
   <br/>
-<div align="center"><i><font size = 3>Figure 1: Clock view.</font></i></div>
+<div align="center" style="font-size:5px"><i>Figure 1: Clock view.</i></div>
 </p>
 <br/>
 * <i>CustomCommand:</i> A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.<br/><br/>
