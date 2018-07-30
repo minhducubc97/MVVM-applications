@@ -41,8 +41,9 @@ Sample Window Applications using MVVM framework:
 * YoutubeStream: An WPF application that can stream videos from Youtube. The user enters their youtube link into the textbox, then application will decide whether the link is valid or not. Only when the link is valid, the application will open the youtube link in embedded version of the video. The application makes use of CefSharp, which enables surfing webs in Chromium instead of default IE.
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Youtube.PNG" height="250"/>
+  <br/>
+  <div align="center"><i>Application initial view.</i></div>
 </p>
-<div align="center"><i>Application initial view.</i></div>
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/YoutubeWrong.PNG" height="250"/>
 </p>
