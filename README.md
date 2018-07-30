@@ -32,13 +32,15 @@ Sample Window Applications using MVVM framework:
   <div align="center"><i>Figure 3: BackgroundWorker in action.</i></div>
 </p>
 <br/><br/>
-* PraceXml: A demonstration of using XmlReader to extract data from Xml file. The information is then displayed on the console. Unlike other projects, this one does not need MVVM.
+* PraceXml: A demonstration of using XmlReader to extract data from Xml file externally (which means that developer has to place the folder containing Xml files inside the output Folder insteading of storing the Xml files inside the executable file). The information is then displayed on the console. Unlike other projects, this one does not need MVVM.
 <br/><br/>
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github10.PNG" height="280"/>
   <br/>
   <div align="center"><i>Figure 4: Console output triggered by the application.</i></div>
 </p>
+<br/><br/>
+* PraceXml-EmbeddedVers: Based on PraceXml, this application stores Xml files inside the executable file as EmbeddedResources instead (which makes it easier for the installation process).
 <br/><br/>
 * ListViewSample: Create a table that resembles an excel sheet, which can receive inputs from the users and calculate the result based on the inputs. In this specific project, the table can calculate gravitation force, given user's input of 2 target objects' mass (m1, m2) and the distance between 2 object (r): F = (G x m1 x m2)/r^2 (Newton). The mini-project feature demonstration of PreviewTextInput, which restricts user to only typing valid characters into the textboxes.
 <br/><br/>
