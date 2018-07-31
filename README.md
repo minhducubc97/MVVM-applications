@@ -50,7 +50,8 @@ Sample Window Applications using MVVM framework:
   <div align="center"><i>Figure 5: Table view.</i></div>
 </p>
 <br/><br/>
-* <i>YoutubeStream:</i> An WPF application that can stream videos from Youtube. The user enters their youtube link into the textbox, then application will decide whether the link is valid or not. Only when the link is valid, the application will open the youtube link in embedded version of the video. The application makes use of CefSharp, which enables surfing webs in Chromium instead of default IE.
+* <i>YoutubeStream:</i> An WPF application that can stream videos from Youtube. The user enters their youtube link into the textbox, then application will decide whether the link is valid or not. Only when the link is valid, the application will open the youtube link in embedded version of the video. The application makes use of CefSharp, which enables surfing webs in Chromium instead of default IE. 
+<br/>
 NOTE: After experimenting quite a few Youtube videos in different browsers, I realize that many of the embedded version of old Youtube links are broken (but the non-embedded version works perfectly). However, the newer Youtube videos work quite well. (It is possible that Youtube gets rid of embedded version of the old videos to make space for newer ones).
 <br/><br/>
 <p align="center">
