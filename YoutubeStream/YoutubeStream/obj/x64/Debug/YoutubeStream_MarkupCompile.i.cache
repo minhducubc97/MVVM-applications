@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\YoutubeStreamAdvanced\YoutubeStream\YoutubeStream\obj\x86\Debug\
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\YoutubeStreamAdvanced\YoutubeStream\YoutubeStream\obj\x64\Debug\
 YoutubeStream
 none
 false
@@ -12,9 +12,9 @@ CODE_ANALYSIS;CODE_ANALYSIS;DEBUG;TRACE
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\YoutubeStreamAdvanced\YoutubeStream\YoutubeStream\App.xaml
 2-1356017796
 
-121111024082
-80818124107
+16-290640840
+761097006289
 MainWindow.xaml;Skins\MainSkin.xaml;
 
-False
+True
 
