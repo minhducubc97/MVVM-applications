@@ -2,11 +2,18 @@
 using CefSharp.Wpf;
 using GalaSoft.MvvmLight;
 using Microsoft.Win32;
+using MyToolkit.Multimedia;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using YoutubeExplode;
+using YoutubeExplode.Models.MediaStreams;
 using YoutubeStream.Model;
 
 
@@ -45,8 +52,8 @@ namespace YoutubeStream.ViewModel
             }
         }
 
-        private WebBrowser _webBrowser;
-        public WebBrowser webBrowser
+        private ChromiumWebBrowser _webBrowser;
+        public ChromiumWebBrowser webBrowser
         {
             get
             {
@@ -83,6 +90,7 @@ namespace YoutubeStream.ViewModel
             set
             {
                 _browserAddress = value;
+                webBrowser.Address = value;
                 RaisePropertyChanged("BrowserAddress");
             }
         }
@@ -103,6 +111,20 @@ namespace YoutubeStream.ViewModel
 
         public CefSettings browserSettings { get; set; }
 
+        private ICommand _download;
+        public ICommand Download
+        {
+            get
+            {
+                return _download;
+            }
+            set
+            {
+                _download = value;
+                RaisePropertyChanged("Download");
+            }
+        }
+
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
@@ -118,15 +140,19 @@ namespace YoutubeStream.ViewModel
         private void initializeVariable()
         {
             Url = "";
-            webBrowser = new WebBrowser();
+            webBrowser = new ChromiumWebBrowser();
             browserSettings = new CefSettings();
-            Cef.Initialize(browserSettings);
+            if (!Cef.IsInitialized)
+            {
+                Cef.Initialize(browserSettings);
+            } 
             ErrorVisibility = "Hidden";
         }
 
         private void initializeCommand()
         {
             EnterLink = new RelayCommand(enterLinkMethod);
+            Download = new RelayCommand(downloadMethod);
         }
 
         /// <summary>
@@ -140,7 +166,7 @@ namespace YoutubeStream.ViewModel
 
         private void enterLinkMethod(object sender)
         {
-            if (!Url.Contains("www.youtube.com"))
+            if (!Url.Contains("youtube.com"))
             {
                 ErrorVisibility = "Hidden"; // => Trigger the blinking effect of ErrorStyle
                 ErrorVisibility = "Visible";
@@ -150,6 +176,20 @@ namespace YoutubeStream.ViewModel
                 ErrorVisibility = "Hidden";
                 BrowserAddress = Url;
             }
+        }
+
+        private async void downloadMethod(object sender)
+        {
+            var id = YoutubeClient.ParseVideoId(Url);
+            var client = new YoutubeClient();
+            var video = await client.GetVideoAsync(id);
+            var streamInfoSet = await client.GetVideoMediaStreamInfosAsync(id);
+
+            var streamInfo = streamInfoSet.Muxed.WithHighestVideoQuality();
+            var ext = streamInfo.Container.GetFileExtension();
+            string title = video.Title.Replace("/", "").Replace("\\","");
+
+            await client.DownloadMediaStreamAsync(streamInfo, "D:\\" + title + ".mp4");
         }
 
         ////public override void Cleanup()
