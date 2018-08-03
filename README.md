@@ -8,18 +8,12 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
 - *SoundPlayer:* Using built-in SystemSounds libary, the SoundPlayer is capable of playing 5 different sounds: Asterisk, Beep, Exclamation, Hand and Question. The sounds may vary, due to user's customization.
 ### 2 - ADVANCED:
 - *BackgroundWorkerSample:* A window with progress bar controlled by BackgroundWorker using multithreading principle. There are three main buttons available to use: Cancel Button - used to close the window, Stop Button - used to stop the BackgroundWorker and the progress bar completely, and Start Button - used to start the BackgroundWorker and trigger the progress bar.
-  ![alt text](./Images/Github7.PNG =100x20)
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github7.PNG"  height="150"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github8.PNG" height="150"/>
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github9.PNG" height="150"/>
-* <i>PraceXml:</i> A demonstration of using XmlReader to extract data from Xml file externally (which means that developer has to place the folder containing Xml files inside the output Folder insteading of storing the Xml files inside the executable file). The information is then displayed on the console. Unlike other projects, this one does not need MVVM.
-<br/><br/>
-<p align="center">
+- *PraceXml:* A demonstration of using XmlReader to extract data from Xml file externally (which means that developer has to place the folder containing Xml files inside the output Folder insteading of storing the Xml files inside the executable file). The information is then displayed on the console. Unlike other projects, this one does not need MVVM.
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github10.PNG" height="280"/>
-  <br/>
-  <div align="center"><i>Figure 4: Console output triggered by the application.</i></div>
-</p>
-<br/><br/>
-* <i>PraceXml-EmbeddedVers:</i> Based on PraceXml, this application stores Xml files inside the executable file as EmbeddedResources instead (which makes it easier for the installation process).
+- *PraceXml-EmbeddedVers:* Based on PraceXml, this application stores Xml files inside the executable file as EmbeddedResources instead (which makes it easier for the installation process).
 <br/><br/>
 * <i>ListViewSample:</i> Create a table that resembles an excel sheet, which can receive inputs from the users and calculate the result based on the inputs. In this specific project, the table can calculate gravitation force, given user's input of 2 target objects' mass (m1, m2) and the distance between 2 object (r): F = (G x m1 x m2)/r^2 (Newton). The mini-project feature demonstration of PreviewTextInput, which restricts user to only typing valid characters into the textboxes.
 <br/><br/>
