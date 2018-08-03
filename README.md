@@ -5,7 +5,6 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
 2. *DispatcherTimerSample:* A simple digital clock that show current time accurate to milliseconds.
 <p align="center">
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github.PNG" height="150"/>
-  <br/>
 <div align="center"><i>Figure 1: Clock view.</i></div>
 </p>
 3. *CustomCommand:* A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.<br/><br/>
