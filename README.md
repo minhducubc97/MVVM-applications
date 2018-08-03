@@ -3,17 +3,8 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
 ### 1 - BASIC:
 1. *CalculatorMiniProject:* A simple calculator that can add 2 numbers together. The calculation happens immediately after the user unfocus the textbox.
 2. *DispatcherTimerSample:* A simple digital clock that show current time accurate to milliseconds.
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github.PNG" height="150"/>
-                                    *Figure 1: Clock view.*
-3. *CustomCommand:* A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.<br/><br/>
+3. *CustomCommand:* A simple demonstration of using CommandBinding to: allow shortkey control, enable/disable button, create pop-up window in MVVM.
 4. *TabControl:* A simple demonstration of using TabControl in MVVM that features a next button to move to the next tab and a back button to move back to the previous tab. 
-<br/><br/>
-<p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github4.PNG" height="280"/>
-  <br/>
-  <div align="center"><i>Figure 2: Tab view.</i></div>
-</p>
-<br/>
 5. *SoundPlayer:* Using built-in SystemSounds libary, the SoundPlayer is capable of playing 5 different sounds: Asterisk, Beep, Exclamation, Hand and Question. The sounds may vary, due to user's customization.
 ### 2 - ADVANCED:
 * <i>BackgroundWorkerSample:</i> A window with progress bar controlled by BackgroundWorker using multithreading principle. There are three main buttons available to use: Cancel Button - used to close the window, Stop Button - used to stop the BackgroundWorker and the progress bar completely, and Start Button - used to start the BackgroundWorker and trigger the progress bar.
