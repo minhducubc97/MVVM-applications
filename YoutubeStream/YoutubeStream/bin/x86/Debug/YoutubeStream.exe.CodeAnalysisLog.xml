@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="d:\c-clone\visualstudioenterprise\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="15.0">
  <Targets>
-  <Target Name="D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\YoutubeStream\YoutubeStream\YoutubeStream\bin\x86\Debug\YoutubeStream.exe">
+  <Target Name="D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\YoutubeStreamAdvanced\YoutubeStream\YoutubeStream\bin\x86\Debug\YoutubeStream.exe">
    <Modules>
     <Module Name="youtubestream.exe">
      <Namespaces>
@@ -12,8 +12,8 @@
          <Members>
           <Member Name="#.ctor(YoutubeStream.Model.IDataService)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-07-30 19:29:10Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalWarning" Path="D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\YoutubeStream\YoutubeStream\YoutubeStream\ViewModel" File="MainViewModel.cs" Line="109">'MainViewModel.MainViewModel(IDataService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;MainViewModel..ctor(IDataService)&#xD;&#xA;MainViewModel.initializeVariable():Void&#xD;&#xA;MainViewModel.set_Url(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-08-02 23:24:15Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\YoutubeStreamAdvanced\YoutubeStream\YoutubeStream\ViewModel" File="MainViewModel.cs" Line="131">'MainViewModel.MainViewModel(IDataService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;MainViewModel..ctor(IDataService)&#xD;&#xA;MainViewModel.initializeVariable():Void&#xD;&#xA;MainViewModel.set_Url(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
             </Message>
            </Messages>
           </Member>
