@@ -21,22 +21,7 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github11.PNG" height="250"/>
   
 - *YoutubeStream:* An WPF application that can stream videos from Youtube. The user enters their youtube link into the textbox, then application will decide whether the link is valid or not. Only when the link is valid, the application will open the youtube link in embedded version of the video. The application also allows user to download the video to local directory. The application makes use of CefSharp, which enables surfing webs in Chromium instead of default IE. **Remark:** After experimenting quite a few Youtube videos in different browsers, I realize that many of the embedded version of old Youtube links are broken (but the non-embedded version works perfectly). However, the newer Youtube videos work quite well. (It is possible that Youtube gets rid of embedded version of the old videos to make space for newer ones).
-<br/><br/>
-<p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Youtube.PNG" height="300"/>
-  <br/>
-  <div align="center"><i>Figure 6: Application initial view.</i></div>
-</p>
-<p align="center">
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/YoutubeWrong.PNG" height="300"/>
-  <br/>
-  <div align="center"><i>Figure 7: Application shows error when user enters an invalid Youtube link.</i></div>
-</p>
-<p align="center">
+
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/YoutubeRight.PNG" height="300"/>
-  <br/>
-  <div align="center"><i>Figure 8: Application displays the Youtube video in embedded form.</i></div>
-</p>
-<br/>
-<br/>
-<p><i>Note: Most of the projects use MVVM light framework.</i></p>
+
+*Note: Most of the projects use MVVM light framework.*
