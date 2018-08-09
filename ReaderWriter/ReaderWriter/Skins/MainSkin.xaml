@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!--Image-->
+    <ImageBrush x:Key="BackgroundImage" ImageSource="../Resources/background.jpg" />
+    <!--Image-->
+    
+    <!--Color-->
+    <SolidColorBrush x:Key="LighterBlue" Color="AliceBlue"/>
+    <SolidColorBrush x:Key="DarkerBlue" Color="LightBlue"/>
+    <!--Color-->
+    
+    <!--Button-->
+    <Style x:Key="InteractiveButton" TargetType="{x:Type Button}">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="BigBorder" BorderThickness="5" BorderBrush="LightBlue" CornerRadius="5" Background="White">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" TextBlock.FontSize="20">
+                        </ContentPresenter>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="BigBorder" Property="Background" Value="{StaticResource DarkerBlue}"/>
+                        </Trigger>
+                        <Trigger Property="Button.IsPressed" Value="False">
+                            <Setter TargetName="BigBorder" Property="Background" Value="{StaticResource LighterBlue}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Button-->
+    
+</ResourceDictionary>

@@ -1,0 +1,68 @@
+﻿<Window x:Class="ReaderWriter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.galasoft.ch/ignore"
+        mc:Ignorable="d ignore"
+        Height="500"
+        Width="500"
+        Title="A.L.F.R.E.D">
+
+    <Window.Resources>
+    </Window.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="{StaticResource BackgroundImage}" >
+        <TabControl Name="mainTab" BorderBrush="Transparent" Background="Transparent">
+            <TabControl.ItemContainerStyle>
+                <Style TargetType="TabItem">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                </Style>
+            </TabControl.ItemContainerStyle>
+            <TabItem BorderBrush="Transparent">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Button Name="btnWriter" Grid.Row="1" Height="80" Width="200" Style="{StaticResource InteractiveButton}" MouseEnter="btnWriter_MouseEnter" MouseLeave="btnWriter_MouseLeave" Click="WriteMethod">Writer</Button>
+                    <Button Name="btnReader" Grid.Row="2" Height="80" Width="200" Style="{StaticResource InteractiveButton}" MouseEnter="btnReader_MouseEnter" MouseLeave="btnReader_MouseLeave" Click="ReadMethod">Reader</Button>
+                </Grid>
+            </TabItem>
+            <TabItem BorderBrush="Transparent">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="1" Background="Black" Width="450" Orientation="Horizontal">
+                        <TextBlock Foreground="White" FontSize="15" TextWrapping="Wrap" Width="300" HorizontalAlignment="Left" Margin="30,30,0,0">Please say what you need to write and the software will do the hard work for you!</TextBlock>
+                        <Button Name="startWriting" Width="80" Height="30" Click="startWriting_Click">Start</Button>
+                    </StackPanel>
+
+                    <TextBox Name="content" Grid.Row="2" Width="450" Height="300" AcceptsReturn="True" TextWrapping="Wrap" VerticalAlignment="Top"></TextBox>
+
+                    <Button Grid.Row="3" Height="40" Width="90" HorizontalAlignment="Left" Margin="20,0,0,0" Click="Go_Back">Back</Button>
+                </Grid>
+            </TabItem>
+            <TabItem BorderBrush="Transparent">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="1" VerticalAlignment="Center">
+                        <Image Source="/Resources/listen.jpg" Width="200" Height="200"></Image>
+                        <Button Margin="0,20,0,0" Width="130" Height="40" Click="startListenning_Click">START LISTENNING</Button>
+                    </StackPanel>
+                    <Button Grid.Row="3" Height="40" Width="90" HorizontalAlignment="Left" Margin="20,0,0,0" Click="Go_Back">Back</Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
