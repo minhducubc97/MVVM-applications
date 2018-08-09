@@ -72,7 +72,7 @@ namespace ReaderWriter
         private void startListenning_Click(object sender, RoutedEventArgs e)
         {
             PromptBuilder promptBuilder = new PromptBuilder();
-            promptBuilder.AppendText("My name is Duc Nguyen");
+            promptBuilder.AppendText("My name is ALFRED");
 
             PromptStyle promptStyle = new PromptStyle();
             promptStyle.Volume = PromptVolume.Soft;
@@ -81,12 +81,12 @@ namespace ReaderWriter
             promptBuilder.AppendText("and I am pleased to meet you.");
             promptBuilder.EndStyle();
 
-            promptBuilder.AppendText("Today, ");
+            promptBuilder.AppendText("Date: ");
             promptBuilder.AppendTextWithHint(DateTime.Now.ToShortDateString(), SayAs.Date);
 
-            promptBuilder.AppendText("I would like to show you this project");
-            promptBuilder.AppendText("about", PromptEmphasis.Strong);
-            promptBuilder.AppendTextWithHint("Listenning and Reading in WPF.", SayAs.SpellOut);
+            promptBuilder.AppendText("Now, I would like to tell you what you wrote");
+            promptBuilder.AppendText("Ehm", PromptEmphasis.Strong);
+            promptBuilder.AppendText(content.Text);
 
             SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer();
             speechSynthesizer.Speak(promptBuilder);

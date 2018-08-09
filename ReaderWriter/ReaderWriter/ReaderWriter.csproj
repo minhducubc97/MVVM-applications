@@ -76,7 +76,6 @@
     <Compile Include="Model\DataService.cs" />
     <Compile Include="Model\IDataService.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
-    <Compile Include="ViewModel\RelayCommand.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -124,9 +123,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\background.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\listen.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\listen.jpg" />

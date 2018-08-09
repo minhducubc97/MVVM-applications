@@ -41,7 +41,7 @@
                     </Grid.RowDefinitions>
                     <StackPanel Grid.Row="1" Background="Black" Width="450" Orientation="Horizontal">
                         <TextBlock Foreground="White" FontSize="15" TextWrapping="Wrap" Width="300" HorizontalAlignment="Left" Margin="30,30,0,0">Please say what you need to write and the software will do the hard work for you!</TextBlock>
-                        <Button Name="startWriting" Width="80" Height="30" Click="startWriting_Click">Start</Button>
+                        <Button Style="{StaticResource CommandButton}" Name="startWriting" Width="80" Height="30" Click="startWriting_Click">START</Button>
                     </StackPanel>
 
                     <TextBox Name="content" Grid.Row="2" Width="450" Height="300" AcceptsReturn="True" TextWrapping="Wrap" VerticalAlignment="Top"></TextBox>
@@ -58,7 +58,7 @@
                     </Grid.RowDefinitions>
                     <StackPanel Grid.Row="1" VerticalAlignment="Center">
                         <Image Source="/Resources/listen.jpg" Width="200" Height="200"></Image>
-                        <Button Margin="0,20,0,0" Width="130" Height="40" Click="startListenning_Click">START LISTENNING</Button>
+                        <Button Style="{StaticResource CommandButton}" Margin="0,20,0,0" Width="130" Height="40" Click="startListenning_Click">START LISTENNING</Button>
                     </StackPanel>
                     <Button Grid.Row="3" Height="40" Width="90" HorizontalAlignment="Left" Margin="20,0,0,0" Click="Go_Back">Back</Button>
                 </Grid>

@@ -30,3 +30,4 @@ D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\ReaderWriter\ReaderWriter\Re
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\ReaderWriter\ReaderWriter\ReaderWriter\obj\Debug\ReaderWriter.csproj.CopyComplete
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\ReaderWriter\ReaderWriter\ReaderWriter\obj\Debug\ReaderWriter.exe
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\ReaderWriter\ReaderWriter\ReaderWriter\obj\Debug\ReaderWriter.pdb
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\ReaderWriter\ReaderWriter\ReaderWriter\obj\Debug\ReaderWriter.csprojResolveAssemblyReference.cache
