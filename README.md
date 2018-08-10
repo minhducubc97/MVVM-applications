@@ -16,6 +16,7 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github10.PNG" height="280"/>
   
 - *PraceXml-EmbeddedVers:* Based on PraceXml, this application stores Xml files inside the executable file as EmbeddedResources instead (which makes it easier for the installation process).
+- *SQLiteCommunication:* The mini-project demonstrates the communication with SQLite database. It shows how to create, insert data and get data from a database file.
 - *ReaderWriter*: Using SpeechSynthesizer (used for speaking) and SpeechRecognizer (used for reading) buit into System.Speech, the software can perform the two most important abilities of human: speaking and reading. User can speak out the command (eg: call the name of the button, then the button will be pressed automatically), tell the program to type and listen to the program speaking the text the user specified. Tip: You need a good pair of headsets.
 - *ListViewSample:* Create a table that resembles an excel sheet, which can receive inputs from the users and calculate the result based on the inputs. In this specific project, the table can calculate gravitation force, given user's input of 2 target objects' mass (m1, m2) and the distance between 2 object (r): F = (G x m1 x m2)/r^2 (Newton). The mini-project feature demonstration of PreviewTextInput, which restricts user to only typing valid characters into the textboxes.
 
