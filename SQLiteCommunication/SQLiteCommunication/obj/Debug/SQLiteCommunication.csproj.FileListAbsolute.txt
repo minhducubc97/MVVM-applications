@@ -1,0 +1,17 @@
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\SQLiteCommunication.exe.config
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\SQLiteCommunication.exe
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\SQLiteCommunication.pdb
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\EntityFramework.dll
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\System.Data.SQLite.dll
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\EntityFramework.xml
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\System.Data.SQLite.xml
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\bin\Debug\System.Data.SQLite.dll.config
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\obj\Debug\SQLiteCommunication.csprojResolveAssemblyReference.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\obj\Debug\SQLiteCommunication.csproj.CoreCompileInputs.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\obj\Debug\SQLiteCommunication.csproj.CopyComplete
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\obj\Debug\SQLiteCommunication.exe
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\SQLiteCommunication\SQLiteCommunication\SQLiteCommunication\obj\Debug\SQLiteCommunication.pdb
