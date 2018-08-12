@@ -13,7 +13,7 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
 ### 2 - ADVANCED:
 - *BackgroundWorkerSample:* A window with progress bar controlled by BackgroundWorker using multithreading principle. There are three main buttons available to use: Cancel Button - used to close the window, Stop Button - used to stop the BackgroundWorker and the progress bar completely, and Start Button - used to start the BackgroundWorker and trigger the progress bar.
 
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/Github7.PNG"  height="150"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/BackgroundWorker.PNG"  height="150"/>
   
 - *PraceXml:* A demonstration of using XmlReader to extract data from Xml file externally (which means that developer has to place the folder containing Xml files inside the output Folder insteading of storing the Xml files inside the executable file). The information is then displayed on the console. Unlike other projects, this one does not need MVVM.
 
