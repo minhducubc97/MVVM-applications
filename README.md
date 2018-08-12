@@ -24,6 +24,10 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
 
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/SQLCommunication.PNG" height="280"/>
   
+- *JSONCommunicator:* A simple demonstration of using serializing and deserializing data with a JSON file. 
+
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/JSONCommunicator.PNG" height="280"/>
+  
 - *AccessDTBCommunication:* This mini-project demonstrates a simple student registration form. Student enters into the form his/her name, prefered ID number, gender, contact and address, and the program will store those values into a local Access file. This program can extract data from and import data into Access file, as well as make changes to data already inside the file.
 
   <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/AccessDTBCommunication.PNG" height="350"/>
