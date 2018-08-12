@@ -13,7 +13,7 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
 ### 2 - ADVANCED:
 - *BackgroundWorkerSample:* A window with progress bar controlled by BackgroundWorker using multithreading principle. There are three main buttons available to use: Cancel Button - used to close the window, Stop Button - used to stop the BackgroundWorker and the progress bar completely, and Start Button - used to start the BackgroundWorker and trigger the progress bar.
 
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/BackgroundWorker.PNG"  height="150"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/BackgroundWorker.PNG"  height="250"/>
   
 - *PraceXml:* A demonstration of using XmlReader to extract data from Xml file externally (which means that developer has to place the folder containing Xml files inside the output Folder insteading of storing the Xml files inside the executable file). The information is then displayed on the console. Unlike other projects, this one does not need MVVM.
 
@@ -26,7 +26,7 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
   
 - *AccessDTBCommunication:* This mini-project demonstrates a simple student registration form. Student enters into the form his/her name, prefered ID number, gender, contact and address, and the program will store those values into a local Access file. This program can extract data from and import data into Access file, as well as make changes to data already inside the file.
 
-  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/AccessDTBCommunication.PNG" height="300"/>
+  <img src="https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/Images/AccessDTBCommunication.PNG" height="350"/>
   
 - *ReaderWriter*: Using SpeechSynthesizer (used for speaking) and SpeechRecognizer (used for reading) buit into System.Speech, the software can perform the two most important abilities of human: speaking and reading. User can speak out the command (eg: call the name of the button, then the button will be pressed automatically), tell the program to type and listen to the program speaking the text the user specified. Tip: You need a good pair of headsets.
 - *YoutubeStream:* An WPF application that can stream videos from Youtube. The user enters their youtube link into the textbox, then application will decide whether the link is valid or not. Only when the link is valid, the application will open the youtube link in embedded version of the video. The application also allows user to download the video to local directory. The application makes use of CefSharp, which enables surfing webs in Chromium instead of default IE.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
