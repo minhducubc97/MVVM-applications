@@ -1,0 +1,10 @@
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\bin\Debug\JSONCommunicator.exe.config
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\bin\Debug\JSONCommunicator.exe
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\bin\Debug\JSONCommunicator.pdb
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\obj\Debug\JSONCommunicator.csprojResolveAssemblyReference.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\obj\Debug\JSONCommunicator.csproj.CoreCompileInputs.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\obj\Debug\JSONCommunicator.csproj.CopyComplete
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\obj\Debug\JSONCommunicator.exe
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\JSONCommunicator\JSONCommunicator\obj\Debug\JSONCommunicator.pdb

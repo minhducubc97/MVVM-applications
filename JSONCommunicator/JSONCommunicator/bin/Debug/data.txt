@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Tom Cruise",
+    "Occupation": "Actor",
+    "Age": 56,
+    "Partner": "None"
+  },
+  {
+    "Name": "Robert Downey JR",
+    "Occupation": "Actor",
+    "Age": 53,
+    "Partner": "Susan Downey"
+  },
+  {
+    "Name": "Lee Kwang Soo",
+    "Occupation": "Entertainer, actor",
+    "Age": 33,
+    "Partner": "Joen So Min"
+  }
+]
