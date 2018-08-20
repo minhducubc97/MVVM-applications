@@ -42,4 +42,4 @@ Sample Window Applications using MVVM framework/MVVM Light framework:
 - MVVM light framework
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/minhducubc97/Window-Applications-MVVM/blob/master/LICENSE) file for details
