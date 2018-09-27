@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:slnCommsSerial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="700" Width="700" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="500" Width="700" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="80"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -23,5 +23,10 @@
         <Button Grid.Row="1" Grid.Column="2" Width="250" Height="50" Command="{Binding DetectUSB}">Detect USBs</Button>
         <ListView Grid.Row="2" Grid.Column="1" FontSize="14" Foreground="Red" HorizontalAlignment="Center" ItemsSource="{Binding USBs}" BorderThickness="1" Width="300">
         </ListView>
+        <StackPanel Grid.Row="3" Grid.ColumnSpan="2">
+            <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" Text="OUTPUT CONSOLE"></TextBlock>
+            <ListView FontSize="14" Foreground="Red" HorizontalAlignment="Center" ItemsSource="{Binding Statuses}" BorderThickness="1" Width="300" Height="100" Margin="0,10,0,0">
+            </ListView>
+        </StackPanel>
     </Grid>
 </Window>

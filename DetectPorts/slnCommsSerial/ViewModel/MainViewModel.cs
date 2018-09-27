@@ -43,6 +43,7 @@ namespace slnCommsSerial.ViewModel
         {
             VCPs = new ObservableCollection<string>();
             USBs = new ObservableCollection<string>();
+            Statuses = new ObservableCollection<string>();
         }
 
         /// <summary>
@@ -149,15 +150,25 @@ namespace slnCommsSerial.ViewModel
         /// <param name="e"></param>
         private void Worker_DoWork(object sender, DoWorkEventArgs e)
         {
-            var insertCOMQuery = new WqlEventQuery("SELECT * FROM __InstanceCreationEvent WITHIN 2 WHERE TargetInstance ISA 'Win32_PnPEntity' AND TargetInstance.Name LIKE '%(COM[0-9]%'");
+            var insertCOMQuery = new WqlEventQuery("SELECT * FROM __InstanceCreationEvent WITHIN 2 WHERE TargetInstance ISA 'Win32_PnPEntity' AND TargetInstance.PnPClass='Ports'");
             var insertCOMWatcher = new ManagementEventWatcher(insertCOMQuery);
             insertCOMWatcher.EventArrived += DeviceInsertedEvent;
             insertCOMWatcher.Start();
 
-            var removeCOMQuery = new WqlEventQuery("SELECT * FROM __InstanceDeletionEvent WITHIN 2 WHERE TargetInstance ISA 'Win32_PnPEntity' AND TargetInstance.Name LIKE '%(COM[0-9]%'");
+            var insertUSBQuery = new WqlEventQuery("SELECT * FROM __InstanceCreationEvent WITHIN 2 WHERE TargetInstance ISA 'Win32_PnPEntity' AND TargetInstance.PnPClass='USB'");
+            var insertUSBWatcher = new ManagementEventWatcher(insertUSBQuery);
+            insertUSBWatcher.EventArrived += DeviceInsertedEvent;
+            insertUSBWatcher.Start();
+
+            var removeCOMQuery = new WqlEventQuery("SELECT * FROM __InstanceDeletionEvent WITHIN 2 WHERE TargetInstance ISA 'Win32_PnPEntity' AND TargetInstance.PnPClass='Ports'");
             var removeCOMWatcher = new ManagementEventWatcher(removeCOMQuery);
             removeCOMWatcher.EventArrived += DeviceRemovedEvent;
             removeCOMWatcher.Start();
+
+            var removeUSBQuery = new WqlEventQuery("SELECT * FROM __InstanceDeletionEvent WITHIN 2 WHERE TargetInstance ISA 'Win32_PnPEntity' AND TargetInstance.PnPClass='USB'");
+            var removeUSBWatcher = new ManagementEventWatcher(removeUSBQuery);
+            removeUSBWatcher.EventArrived += DeviceRemovedEvent;
+            removeUSBWatcher.Start();
         }
 
         /// <summary>
@@ -168,7 +179,21 @@ namespace slnCommsSerial.ViewModel
         private void DeviceInsertedEvent(object sender, EventArrivedEventArgs e)
         {
             ManagementBaseObject instance = (ManagementBaseObject)e.NewEvent["TargetInstance"];
-            MessageBox.Show(instance.Properties["Name"].Value + " is Inserted.");
+            string name = instance.Properties["Name"].Value.ToString();
+            string output = name + " is Inserted.";
+
+            App.Current.Dispatcher.Invoke((Action)delegate // Trigger action in the UI thread
+            {
+                if (IsOfUSBType(instance.Properties["DeviceID"].Value.ToString()))
+                {
+                    USBs.Add(name);
+                }
+                else
+                {
+                    VCPs.Add(name);
+                }
+                Statuses.Add(output);
+            });
         }
 
         /// <summary>
@@ -179,7 +204,37 @@ namespace slnCommsSerial.ViewModel
         private void DeviceRemovedEvent(object sender, EventArrivedEventArgs e)
         {
             ManagementBaseObject instance = (ManagementBaseObject)e.NewEvent["TargetInstance"];
-            MessageBox.Show(instance.Properties["Name"].Value + " is Removed.");
+            string name = instance.Properties["Name"].Value.ToString();
+            string output = name + " is Removed.";
+
+            App.Current.Dispatcher.Invoke((Action)delegate // Trigger action in the UI thread
+            {
+                if (VCPs.Contains(name))
+                {
+                    VCPs.Remove(name);
+                }
+                else if (USBs.Contains(name))
+                {
+                    USBs.Remove(name);
+                }
+                Statuses.Add(output);
+            });
+        }
+
+        /// <summary>
+        /// Check if the DeviceID indicates that the device is an USB.
+        /// </summary>
+        /// <param name="deviceID"></param>
+        /// <returns></returns>
+        private bool IsOfUSBType(string deviceID)
+        {
+            bool result = false;
+            string[] removeBackLash = deviceID.Split('\\');
+            if (removeBackLash[1].Contains("VID_") && removeBackLash[1].Contains("PID_"))
+            {
+                result = true;
+            }
+            return result;
         }
         #endregion Methods
 
@@ -237,6 +292,20 @@ namespace slnCommsSerial.ViewModel
             {
                 _usbs = value;
                 RaisePropertyChanged("USBs");
+            }
+        }
+
+        private ObservableCollection<string> _statuses;
+        public ObservableCollection<string> Statuses
+        {
+            get
+            {
+                return _statuses;
+            }
+            set
+            {
+                _statuses = value;
+                RaisePropertyChanged("Statuses");
             }
         }
 

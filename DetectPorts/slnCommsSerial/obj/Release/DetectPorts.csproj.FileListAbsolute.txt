@@ -1,0 +1,15 @@
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\bin\Release\slnCommsSerial.exe.config
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\bin\Release\slnCommsSerial.exe
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\bin\Release\slnCommsSerial.pdb
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\DetectPorts.csprojResolveAssemblyReference.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\MainWindow.g.cs
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\App.g.cs
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\slnCommsSerial_MarkupCompile.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\slnCommsSerial_MarkupCompile.lref
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\MainWindow.baml
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\slnCommsSerial.g.resources
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\slnCommsSerial.Properties.Resources.resources
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\DetectPorts.csproj.GenerateResource.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\DetectPorts.csproj.CoreCompileInputs.cache
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\slnCommsSerial.exe
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Release\slnCommsSerial.pdb

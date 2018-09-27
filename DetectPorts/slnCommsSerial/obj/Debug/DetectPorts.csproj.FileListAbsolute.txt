@@ -1,7 +1,6 @@
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\bin\Debug\slnCommsSerial.exe.config
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\bin\Debug\slnCommsSerial.exe
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\bin\Debug\slnCommsSerial.pdb
-D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Debug\DetectPorts.csprojResolveAssemblyReference.cache
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Debug\MainWindow.g.cs
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Debug\App.g.cs
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Debug\slnCommsSerial_MarkupCompile.cache
@@ -13,3 +12,4 @@ D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\o
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Debug\DetectPorts.csproj.CoreCompileInputs.cache
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Debug\slnCommsSerial.exe
 D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Debug\slnCommsSerial.pdb
+D:\Documents\W-O-R-K\SELF-LEARNING\C# .NET-LEARNING\DetectPorts\slnCommsSerial\obj\Debug\DetectPorts.csprojResolveAssemblyReference.cache
